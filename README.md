@@ -1,2 +1,5 @@
 # scratch-py
-Command line Web Search Engine built with Python 
+Scratch - Command Line Web Search Engine, built with Python.
+
+# Usage
+`python3 scratch.py "Rocko's Modern Life"`
