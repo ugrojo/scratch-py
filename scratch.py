@@ -8,11 +8,8 @@ from utils import utils
 def main():
     args = sys.argv
     if len(args) < 2:
-        raise Exception("arg containing string to search not found")
-    to_search = args[1]
-    if type(to_search) != str:
-        raise TypeError("arg to search needs to be a string")
-    to_search = utils.sanitize(to_search)
+        raise Exception("arg string to search not found")
+    to_search = utils.sanitize(args[1])
     matching_results = searcheng.search(to_search)
     return matching_results
 
